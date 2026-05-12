@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>摄影师作品集案例</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      color: #222;
+      background: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 16px;
+    }
+
+    header p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: 0 auto 28px;
+      color: #ddd;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 14px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .photo-box {
+      height: 180px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #d1d5db, #6b7280);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      margin-bottom: 14px;
+    }
+
+    .price {
+      font-size: 24px;
+      font-weight: bold;
+      color: #2563eb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>个人摄影师作品集</h1>
+    <p>适合摄影师、设计师、自由职业者展示个人介绍、作品风格、服务套餐和预约方式。</p>
+    <a class="btn" href="#contact">预约咨询</a>
+  </header>
+
+  <section>
+    <h2>关于摄影师</h2>
+    <div class="card">
+      <p>这是一位个人摄影师的作品展示案例。页面可以展示个人介绍、拍摄风格、代表作品、服务价格和联系方式，适合用作线上名片和客户转化页面。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>作品展示</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="photo-box">人像摄影</div>
+        <p>适合个人写真、职业形象照、社交平台头像。</p>
+      </div>
+
+      <div class="card">
+        <div class="photo-box">产品摄影</div>
+        <p>适合电商产品、小红书图片、品牌宣传素材。</p>
+      </div>
+
+      <div class="card">
+        <div class="photo-box">活动摄影</div>
+        <p>适合开业活动、课程现场、公司会议、展会记录。</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>服务套餐</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>个人写真</h3>
+        <p class="price">399元起</p>
+        <p>适合个人照片、头像、生活方式记录。</p>
+      </div>
+
+      <div class="card">
+        <h3>产品拍摄</h3>
+        <p class="price">599元起</p>
+        <p>适合商品展示、详情页图片、社交平台宣传。</p>
+      </div>
+
+      <div class="card">
+        <h3>活动跟拍</h3>
+        <p class="price">999元起</p>
+        <p>适合商业活动、课程现场、会议记录。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>想做同款网站？</h2>
+    <div class="card">
+      <p>这是一个摄影师作品集案例。如果你也想做类似的个人展示网站，可以联系我。</p>
+      <p>微信：_y122625</p>
+      <p>邮箱：<a href="mailto:gaoguangran_cug@163.com">gaoguangran_cug@163.com</a></p>
+      <a class="btn" href="index.html">返回首页</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 摄影师作品集案例
+  </footer>
+
+</body>
+</html>
